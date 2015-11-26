@@ -16,8 +16,8 @@
   "platforms": {
     "ios": "5.0"
   },
-  "source_files": "GoogleAnalytics/Library/*.h",
-  "preserve_paths": "libGoogleAnalyticsServices.a",
+  "source_files": ["GoogleAnalytics/Library/*.h","GoogleTagManager/Library/*.h"],
+  "preserve_paths": ["libGoogleAnalyticsServices.a","libAdIdAccess.a"],
   "frameworks": [
     "CFNetwork",
     "CoreData",
